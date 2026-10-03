@@ -1,0 +1,1 @@
+docker compose exec airflow-scheduler airflow dags list-import-errors

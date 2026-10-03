@@ -1,0 +1,6 @@
+
+apache-airflow==3.2.0
+apache-airflow-providers-celery==3.24.1
+apache-airflow-providers-standard==1.20.0
+dbt-core==1.11.11
+dbt-databricks==1.12.1

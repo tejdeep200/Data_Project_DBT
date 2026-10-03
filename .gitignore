@@ -1,0 +1,44 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment files and secrets
+.env
+**/.env
+*.env
+.env.*
+**/.user.yml
+
+# Local Airflow secrets
+/airflow/.env
+
+# Airflow runtime files
+/logs/
+*.log
+/airflow/logs/
+airflow/**/logs/
+airflow/__pycache__/
+airflow/dags/__pycache__/
+/airflow/airflow_failure.txt
+
+# dbt generated files
+/walmart_project/target/
+/walmart_project/logs/
+/walmart_project/dbt_packages/
+/airflow/walmart_project/target/
+/airflow/walmart_project/logs/
+/airflow/walmart_project/dbt_packages/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
